@@ -1,6 +1,6 @@
 #Description of Datasets
 
-The dataset is a combined set of two* * Pew Research Center’s Internet & American Life Project in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a 2013 Library Typology (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a * * 2014 E-Reading and Gadgets* * (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
+The dataset is a combined set of two* * Pew Research Center’s Internet & American Life Project* * in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a 2013 Library Typology (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a * *2014 E-Reading and Gadgets* * (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
 
 The * *2013 Library Typology* * dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
 
@@ -80,7 +80,7 @@ The team used excel to do the new variable calculations and define a new join da
 
 #Dataset Graphic Representation
 
-By using Bing Maps in Excel we filtered the cleansed sheet of the joined data for the percentages for answer 1 for Q21a (People that have visit a public library in the past 12 months) and TRUE for use E-Reading devices by state. The percentages were scaled to 0 to a 100 and finally the map uses the pie chart display to make a comparison of percentages.
+By using * *Bing Maps* * in Excel we filtered the cleansed sheet of the joined data for the percentages for answer 1 for Q21a (People that have visit a public library in the past 12 months) and TRUE for use E-Reading devices by state. The percentages were scaled to 0 to a 100 and finally the map uses the pie chart display to make a comparison of percentages.
 Notice that to be able to visualize the map the user needs to be connected to the internet and have a Microsoft account.  The user will also need to be able to zoom in and out of the map to find the best resizing format to see the whole United States regions.
 From the graphic representation the most noticeable feature is that the percentage of people visiting public libraries in the last 12 month is always greater or equal to those using E-Reading devices making noticeable the relevance of public libraries in all states as of 2013-2014. A tendency analysis will need to be made to see if E-Reading devices will overtake libraries  in the future.
 
@@ -99,6 +99,7 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - State Codes:
 - q21a:
 - KeyTypology:
+
 ###January_2014_Ereading_Gadgets_C.
 - State Codes  
 - Pial4a-b  
@@ -106,6 +107,7 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - Pial4calc  
 - EreadingDevices  
 - Key
+
 ###Join_Library_ Typology_ Ereading
 - FIPS State Numeric Code   
 - State Identifier   
@@ -115,6 +117,7 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - KeyEreading   
 - Percentage Typology	 
 - PercentageEReading 
+
 ###Clean_Join_LibTypology_Ereading
 - FIPS State Numeric Code 
 - State Identifier 
@@ -126,6 +129,7 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - Percentage Use E-Reading (Percentage Ereading)   
 - Percentage Visit Public Libraries % (Percentage Typology)  
 - Percentage Use E-Reading % (Percentage Ereading)   
+
 ###Library Visit & E-Reading Map
 - State	 
 - Visit Public Libraries %	 
