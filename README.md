@@ -1,20 +1,20 @@
 #Description of Datasets
 
-The dataset is a combined set of two* *Pew Research Center’s Internet & American Life Project* * in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a * *2013 Library Typology* * (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a * *2014 E-Reading and Gadgets* * (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
+The dataset is a combined set of two *Pew Research Center’s Internet & American Life Project*  in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a  *2013 Library Typology*  (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a  *2014 E-Reading and Gadgets*  (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
 
-The * *2013 Library Typology* * dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
+The  *2013 Library Typology*  dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
 
-The * *2014 E-Reading and Gadgets* * dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
+The  *2014 E-Reading and Gadgets*  dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
 
 Even though these datasets are one year apart which may lead to data miss match, it still provides relevant information based on the commonality factor of location. The one year apart between the datasets is not significant given the information we used for the joined dataset is formulated in a way that asks the individual if he/she ever used electronic devices for reading or ever visited the library making the question cumulative overtime with only one year difference. 
 
-From these two original datasets of the * *2013 Library Typology * *dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the * *2014 E-Reading and Gadgets* *  PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
+From these two original datasets of the *2013 Library Typology * dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the  *2014 E-Reading and Gadgets*   PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
 
 # Data Description
 
 The following section describes the codification of the selected data points: 
 
-From * *2013 Library Typology* *: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
+From *2013 Library Typology*: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
 
 Options:
 
@@ -24,7 +24,7 @@ Options:
 8.	Don’t know
 9.	Refused
 
-From * *2014 E-Reading and Gadgets* *: PIAL4  When you read electronic books or e-books, do you ever read them on your... [INSERT ITEMS IN ORDER]?
+From  *2014 E-Reading and Gadgets* : PIAL4  When you read electronic books or e-books, do you ever read them on your... [INSERT ITEMS IN ORDER]?
 
 a.	Tablet computer
 
@@ -49,7 +49,7 @@ The dataset is released in the framework and conjugation with INFM 600, Informat
 
 # Dataset Combination Process 
 
-To join both datasets, the research team identified the common key to combined the datasets for              * *2013 Library Typology* *  and  * *2014 E-Reading and Gadgets* *  using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
+To join both datasets, the research team identified the common key to combined the datasets for               *2013 Library Typology*  and  *2014 E-Reading and Gadgets*  using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
 
 The team used excel to do the new variable calculations and define a new join dataset as follows:
 
@@ -76,19 +76,19 @@ The team used excel to do the new variable calculations and define a new join da
 - Created a sheet with all possible permutations of the variables: State Identifier,  Q21a (possible answers: 1, 2, 3, 8 and 9) and useEReadingDevices (possible values: TRUE, FALSE)
 - Created a Key variable to match the Key values for each dataset.
 - Created variables  PercentageTypology and PercentageEreading using the COUNTIF function in excel to count each Key value and divided by the total number of answer per state, creating a new calculated variable representing the percentage of people in that state with each answer combination (from 0 to 1). 
-- Notice Alaska, Hawaii and Wyoming were not survey in the * *2014 E-Reading and Gadgets* *  were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
+- Notice Alaska, Hawaii and Wyoming were not survey in the *2014 E-Reading and Gadgets*  were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
 
 #Dataset Graphic Representation
 
-By using  * *Bing Maps* *  in  * *Excel* *  we filtered the cleansed sheet of the joined data for the percentages for answer 1 for Q21a (People that have visit a public library in the past 12 months) and TRUE for use E-Reading devices by state. The percentages were scaled to 0 to a 100 and finally the map uses the pie chart display to make a comparison of percentages.
+By using  *Bing Maps*   in  *Excel*   we filtered the cleansed sheet of the joined data for the percentages for answer 1 for Q21a (People that have visit a public library in the past 12 months) and TRUE for use E-Reading devices by state. The percentages were scaled to 0 to a 100 and finally the map uses the pie chart display to make a comparison of percentages.
 Notice that to be able to visualize the map the user needs to be connected to the internet and have a Microsoft account.  The user will also need to be able to zoom in and out of the map to find the best resizing format to see the whole United States regions.
 From the graphic representation the most noticeable feature is that the percentage of people visiting public libraries in the last 12 month is always greater or equal to those using E-Reading devices making noticeable the relevance of public libraries in all states as of 2013-2014. A tendency analysis will need to be made to see if E-Reading devices will overtake libraries  in the future.
 
 #File
 
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
-- Sheet Sept_2013_Library_Typology: contains raw data set for * *2013 Library Typology* *  with the highlighted fields selected fields and Key fields defined for the purpose of this project.
-- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for  * *2014 E-Reading and Gadgets * * and the highlighted fields, the calculated fields and key defined for the purpose of this project.
+- Sheet Sept_2013_Library_Typology: contains raw data set for * 2013 Library Typology*  with the highlighted fields selected fields and Key fields defined for the purpose of this project.
+- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for  * 2014 E-Reading and Gadgets* and the highlighted fields, the calculated fields and key defined for the purpose of this project.
 - Sheet Join_Library_ Typology_ Ereading: contains the first iteration of the joined data; it includes the FIPS State Numeric Code, State Identifier, Library Typology Q21a Possible answers, useEReading Devices, KeyTypology, KeyEreading, PercentageTypology, and PercentageEReading.
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
 - Sheet Library Visit & E-Reading Map: contains a filtered set of data from the Clean_Join_LibTypology_Ereading sheet to only include Q21a 1 and Use E-Reading Devices TRUE and a graphical map representation of the filtered data.
@@ -108,40 +108,42 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - Pial4d: Answers for question PIAL4a (1,2,3,4,5,6,8 or 9)
 - Pial4Key: [state],[Pial4a],[Pial4b],[Pial4c],[Pial4d]
 - Pial4calc: Sum of answers from 1 to 4	  
-- EreadingDevices  
-- Key
+- useEreadingDevices: TRUE if Pial4calc>0, FALSE otherwise
+- Key: [state],[useEreadingDevices]
+
+
 
 ###Join_Library_ Typology_ Ereading
-- FIPS State Numeric Code   
-- State Identifier   
-- Library Typology   Q21a    
-- useEReading Devices   
-- KeyTypology  
-- KeyEreading   
-- Percentage Typology	 
-- PercentageEReading 
+- FIPS State Numeric Code: State Name
+- State Identifier: FIPS Code
+- Library Typology Q21a: All possible answers for q21a    
+- useEReadingDevices: All possible values for useEReadingDevices
+- KeyTypology   [state],[Library Typology Q21a]
+- KeyEreading: [state],[useEreadingDevices]
+- Percentage Typology: Number of KeyTypology occurrences for this state divided by all the answers for this state (percent from 0 to 1)	 
+- PercentageEReading: Number of KeyEreading occurrences for this state divided by all the answers for this state (percent from 0 to 1)	 
 
 ###Clean_Join_LibTypology_Ereading
-- FIPS State Numeric Code 
-- State Identifier 
-- Library  Typology   Q21a    
-- UseEReading Devices  
-- KeyTypology 
-- KeyEreading   
-- Percentage Visit Public Libraries (Percentage Typology)  
-- Percentage Use E-Reading (Percentage Ereading)   
-- Percentage Visit Public Libraries % (Percentage Typology)  
-- Percentage Use E-Reading % (Percentage Ereading)   
+- FIPS State Numeric Code: State Name
+- State Identifier: FIPS Code
+- Library Typology Q21a: All possible answers for q21a    
+- useEReadingDevices: All possible values for useEReadingDevices
+- KeyTypology   [state],[Library Typology Q21a]
+- KeyEreading: [state],[useEreadingDevices]
+- Percentage Typology: Number of KeyTypology occurrences for this state divided by all the answers for this state (percent from 0 to 1)	 
+- PercentageEReading: Number of KeyEreading occurrences for this state divided by all the answers for this state (percent from 0 to 1)	 
+- Percentage Typology: Number of KeyTypology occurrences for this state divided by all the answers for this state (percent from 0 to 100)	 
+- PercentageEReading: Number of KeyEreading occurrences for this state divided by all the answers for this state (percent from 0 to 100)	   
 
 ###Library Visit & E-Reading Map
-- State	 
-- Visit Public Libraries %	 
-- Use E-Reading Devices %
+- State: State Name	 
+- Visit Public Libraries %	: Number of KeyTypology occurrences for this state divided by all the answers for this state (percent from 0 to 100)	
+- Use E-Reading Devices %: Number of KeyEreading occurrences for this state divided by all the answers for this state (percent from 0 to 100)
 
 
 #Acknowledgements
 
-We want to thank the research groups of the * *Pew Research Center’s Internet & American Life Project* *  in association with * *Princeton Survey Research Associates International* *  for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith compiler of the   * *2013 Library Typology* *   dataset and the compliers Kathryn Zickuhr and Lee Raine of the * *2014 E-Reading and Gadgets* * dataset.  We also would like to thank * *Bing Maps* *  in  * *Microsoft Excel 2013* *  developed by the  * *Microsoft Corporation* *  for provided us with the geographic chart map.
+We want to thank the research groups of the * *Pew Research Center’s Internet & American Life Project*   in association with *Princeton Survey Research Associates International*   for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith compiler of the   *2013 Library Typology*   dataset and the compliers Kathryn Zickuhr and Lee Raine of the *2014 E-Reading and Gadgets*  dataset.  We also would like to thank *Bing Maps*  in  *Microsoft Excel 2013*   developed by the  *Microsoft Corporation*   for provided us with the geographic chart map.
 
 #Licenses 
 
@@ -155,9 +157,9 @@ info@pewresearch.org.
 
 When citing this data you should cite :
 - Pew Research Center  Website , http://www.pewresearch.org/
-- Pew Research Center Data Set : * *July 18-Sept. 30, 2013 * * – * *Library Typology* * , http://www.pewinternet.org/datasets/september-2013-library-typology/
-- Pew Research Center Data Set : * * Jan. 2-5, 2014* * –* * E-Reading and Gadgets* * , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
--  * *Bing Maps* * Website enabled app function in * *Microsoft  Excel * *,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
+- Pew Research Center Data Set :  *July 18-Sept. 30, 2013*  – * Library Typology* , http://www.pewinternet.org/datasets/september-2013-library-typology/
+- Pew Research Center Data Set : * Jan. 2-5, 2014*  – * E-Reading and Gadgets*  , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
+-   *Bing Maps*  Website enabled app function in *Microsoft  Excel * ,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
 
 #Credits
 
