@@ -49,7 +49,7 @@ The dataset is released in the framework and conjugation with INFM 600, Informat
 
 # Dataset Combination Process 
 
-To join both datasets, the research team identified the common key to combined the datasets for **2013 Library Typology** and **2014 E-Reading and Gadgets** using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
+To join both datasets, the research team identified the common key to combined the datasets for * *2013 Library Typology* * and * *2014 E-Reading and Gadgets* * using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
 
 The team used excel to do the new variable calculations and define a new join dataset as follows:
 
@@ -76,7 +76,7 @@ The team used excel to do the new variable calculations and define a new join da
 - Created a sheet with all possible permutations of the variables: State Identifier,  Q21a (possible answers: 1, 2, 3, 8 and 9) and useEReadingDevices (possible values: TRUE, FALSE)
 - Created a Key variable to match the Key values for each dataset.
 - Created variables  PercentageTypology and PercentageEreading using the COUNTIF function in excel to count each Key value and divided by the total number of answer per state, creating a new calculated variable representing the percentage of people in that state with each answer combination (from 0 to 1). 
-- Notice Alaska, Hawaii and Wyoming were not survey in the 2014 E-Reading and Gadgets were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
+- Notice Alaska, Hawaii and Wyoming were not survey in the * *2014 E-Reading and Gadgets* * were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
 
 #Dataset Graphic Representation
 
@@ -87,8 +87,8 @@ From the graphic representation the most noticeable feature is that the percenta
 #File
 
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
-Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typology** with the highlighted fields selected fields and Key fields defined for the purpose of this project.
-- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for **2014 E-Reading and Gadgets **and the highlighted fields, the calculated fields and key defined for the purpose of this project.
+- Sheet Sept_2013_Library_Typology: contains raw data set for * *2013 Library Typology* * with the highlighted fields selected fields and Key fields defined for the purpose of this project.
+- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for * *2014 E-Reading and Gadgets * *and the highlighted fields, the calculated fields and key defined for the purpose of this project.
 - Sheet Join_Library_ Typology_ Ereading: contains the first iteration of the joined data; it includes the FIPS State Numeric Code, State Identifier, Library Typology Q21a Possible answers, useEReading Devices, KeyTypology, KeyEreading, PercentageTypology, and PercentageEReading.
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
 - Sheet Library Visit & E-Reading Map: contains a filtered set of data from the Clean_Join_LibTypology_Ereading sheet to only include Q21a 1 and Use E-Reading Devices TRUE and a graphical map representation of the filtered data.
@@ -104,7 +104,7 @@ Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typol
 
 #Acknowledgements
 
-We want to thank the research groups of the Pew Research Center’s Internet & American Life Project in association with **Princeton Survey Research Associates International** for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith complier of the **2013 Library Typology** dataset and the compliers Kathryn Zickuhr and Lee Raine of the **2014 E-Reading and Gadgets** dataset.  We also would like to thank **Bing Maps**  in **Microsoft Excel 2013**  developed by the **Microsoft Corporation** for provided us with the geographic chart map.
+We want to thank the research groups of the * *Pew Research Center’s Internet & American Life Project* *  in association with * *Princeton Survey Research Associates International* * for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith complier of the **2013 Library Typology** dataset and the compliers Kathryn Zickuhr and Lee Raine of the * *2014 E-Reading and Gadgets* * dataset.  We also would like to thank **Bing Maps**  in **Microsoft Excel 2013**  developed by the **Microsoft Corporation** for provided us with the geographic chart map.
 
 #Licenses 
 
