@@ -157,9 +157,9 @@ info@pewresearch.org.
 
 When citing this data you should cite :
 - Pew Research Center  Website , http://www.pewresearch.org/
-- Pew Research Center Data Set :  *July 18-Sept. 30, 2013*  – * Library Typology* , http://www.pewinternet.org/datasets/september-2013-library-typology/
+- Pew Research Center Data Set :  *July 18-Sept. 30, 2013*  – *Library Typology* , http://www.pewinternet.org/datasets/september-2013-library-typology/
 - Pew Research Center Data Set : *Jan. 2-5, 2014*  – *E-Reading and Gadgets*  , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
--   *Bing Maps*  Website enabled app function in *Microsoft  Excel* ,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
+-   *Bing Maps*  Website enabled app function in *Microsoft  Excel 2013* ,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
 
 #Credits
 
