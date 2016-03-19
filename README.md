@@ -8,7 +8,7 @@ The  *2014 E-Reading and Gadgets*  dataset consist of a survey question analysis
 
 Even though these datasets are one year apart which may lead to data miss match, it still provides relevant information based on the commonality factor of location. The one year apart between the datasets is not significant given the information we used for the joined dataset is formulated in a way that asks the individual if he/she ever used electronic devices for reading or ever visited the library making the question cumulative overtime with only a one year difference. 
 
-From these two original datasets of the *2013 Library Typology * dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the  *2014 E-Reading and Gadgets*   PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using E-books also have a significant percentage of in person visits to public libraries ?
+From these two original datasets of the *2013 Library Typology* dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the  *2014 E-Reading and Gadgets*   PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using E-books also have a significant percentage of in person visits to public libraries ?
 
 # Data Description
 
