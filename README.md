@@ -8,13 +8,13 @@ The 2014 E-Reading and Gadgets dataset consist of a survey question analysis of 
 
 Even though these datasets are one year apart which may lead to data miss match, it still provides relevant information based on the commonality factor of location. The one year apart between the datasets is not significant given the information we used for the joined dataset is formulated in a way that asks the individual if he/she ever used electronic devices for reading or ever visited the library making the question cumulative overtime with only one year difference. 
 
-From these two original datasets of the 2013 Library Typology dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the 2014 E-Reading and Gadgets PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
+From these two original datasets of the **2013 Library Typology **dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the **2014 E-Reading and Gadgets PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
 
 # Data Description
 
 The following section describes the codification of the selected data points: 
 
-From 2013 Library Typology: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
+From **2013 Library Typology**: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
 
 Options:
 
@@ -24,7 +24,7 @@ Options:
 8.	Don’t know
 9.	Refused
 
-From 2014 E-Reading and Gadgets: PIAL4  When you read electronic books or e-books, do you ever read them on your... [INSERT ITEMS IN ORDER]?
+From **2014 E-Reading and Gadgets**: PIAL4  When you read electronic books or e-books, do you ever read them on your... [INSERT ITEMS IN ORDER]?
 
 a.	Tablet computer
 
@@ -49,7 +49,7 @@ The dataset is released in the framework and conjugation with INFM 600, Informat
 
 # Dataset Combination Process 
 
-To join both datasets, the research team identified the common key to combined the datasets for 2013 Library Typology and 2014 E-Reading and Gadgets using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
+To join both datasets, the research team identified the common key to combined the datasets for **2013 Library Typology** and **2014 E-Reading and Gadgets** using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
 
 The team used excel to do the new variable calculations and define a new join dataset as follows:
 
@@ -57,7 +57,7 @@ The team used excel to do the new variable calculations and define a new join da
 
 - Identified the state identifier column
 - Identified the Q21a column
-- Created new variable, called Key, to signify the combination of the state identifier and the Q21a selected answer formated as; <state identifier>,<Q21a codified answer>. 
+- Created new variable, called Key, to signify the combination of the state identifier and the Q21a selected answer formated as; [state identifier],[Q21a codified answer]. 
 
 ## 2014 E-Reading and Gadgets 
 
@@ -91,7 +91,7 @@ From the graphic representation the most noticeable feature is that the percenta
 
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typology** with the highlighted fields selected fields and Key fields defined for the purpose of this project.
-- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for **2014 E-Reading and Gadgets and the highlighted fields, the calculated fields and key defined for the purpose of this project.
+- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for **2014 E-Reading and Gadgets **and the highlighted fields, the calculated fields and key defined for the purpose of this project.
 - Sheet Join_Library_ Typology_ Ereading: contains the first iteration of the joined data; it includes the FIPS State Numeric Code, State Identifier, Library Typology Q21a Possible answers, useEReading Devices, KeyTypology, KeyEreading, PercentageTypology, and PercentageEReading.
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
 - Sheet Library Visit & E-Reading Map: contains a filtered set of data from the Clean_Join_LibTypology_Ereading sheet to only include Q21a 1 and Use E-Reading Devices TRUE and a graphical map representation of the filtered data.
