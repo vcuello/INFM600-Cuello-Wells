@@ -4,11 +4,11 @@ The dataset is a combined set of two Pew Research Center’s Internet & American
 
 The 2013 Library Typology dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
 
-The 2014 E-Reading and Gadgets dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
+The **2014 E-Reading and Gadgets** dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
 
 Even though these datasets are one year apart which may lead to data miss match, it still provides relevant information based on the commonality factor of location. The one year apart between the datasets is not significant given the information we used for the joined dataset is formulated in a way that asks the individual if he/she ever used electronic devices for reading or ever visited the library making the question cumulative overtime with only one year difference. 
 
-From these two original datasets of the **2013 Library Typology **dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the **2014 E-Reading and Gadgets PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
+From these two original datasets of the **2013 Library Typology **dataset survey response results of Q21, frequency of use of the library in the past year combined with the dataset survey results of the **2014 E-Reading and Gadgets** PIAL4 response to the used electronic book platforms is necessary to answering the question of; Do states whose population reported a significant percentage of reading using e-books also have a significant percentage of in person visits to public libraries ?
 
 # Data Description
 
@@ -63,20 +63,17 @@ The team used excel to do the new variable calculations and define a new join da
 
 - Identified the state identifier column
 - Identified the PIAL4 columns for all 4 devices tested; PIAL4a, PIAL4b, PIAL4c and PIAL4d
-- Created new variable, called Key, to signify the combination of the state key and the selected answers for PIAL4a, PIAL4b, PIAL4c and PIAL4d formated as; <state identifier>,<PIAL4a answer>,<PIAL4b answer>,<PIAL4c answer>,<PIAL4d answer>
+- Created new variable, called Key, to signify the combination of the state key and the selected answers for PIAL4a, PIAL4b, PIAL4c and PIAL4d formated as; [state identifier],[PIAL4a answer],[PIAL4b answer],[PIAL4c answer],[PIAL4d answer]
 - Created a new variable called PIAL4Calc to sum all PIAL4 answers only for options:
-1.	Yes, every day or almost every day
-2.	Yes, a few times a week
-3.	Yes, a few times a month
-4.	Yes, less often
+(1) Yes, every day or almost every day
+(2) Yes, a few times a week
+(3) Yes, a few times a month
+(4) Yes, less often
 - If the Sum PIAL4Calc  is greater than 0 this individual uses e-reading devices. For this purpose we created a new boolean variable called useEReadingDevices to hold the value of TRUE if the sum PIAL4Calc  is greater than 0, FALSE otherwise.
-- Created new variable, called Key, to signify the combination of the state key and the calculated variable useEReadingDevices; <state identifier>,<useEReadingDevices>
+- Created new variable, called Key, to signify the combination of the state key and the calculated variable useEReadingDevices; [state identifier],[useEReadingDevices]
 
 ## Joined Dataset 
-- Created a sheet with all possible permutations of the variables:
-1. State Identifier
-2. Q21a possible answers: 1, 2, 3, 8 and 9
-3. useEReadingDevices possible values: TRUE, FALSE
+- Created a sheet with all possible permutations of the variables: State Identifier,  Q21a (possible answers: 1, 2, 3, 8 and 9) and useEReadingDevices (possible values: TRUE, FALSE)
 - Created a Key variable to match the Key values for each dataset.
 - Created variables  PercentageTypology and PercentageEreading using the COUNTIF function in excel to count each Key value and divided by the total number of answer per state, creating a new calculated variable representing the percentage of people in that state with each answer combination (from 0 to 1). 
 - Notice Alaska, Hawaii and Wyoming were not survey in the 2014 E-Reading and Gadgets were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
@@ -121,9 +118,9 @@ info@pewresearch.org.
 
 When citing this data you should cite :
 - Pew Research Center  Website , http://www.pewresearch.org/
-- Pew Research Center Data Set : July 18-Sept. 30, 2013 – Library Typology , http://www.pewinternet.org/datasets/september-2013-library-typology/
-- Pew Research Center Data Set :  Jan. 2-5, 2014 – E-Reading and Gadgets , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
-- **Bing Maps** Website enabled app function in Microsoft  Excel,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
+- Pew Research Center Data Set : * *July 18-Sept. 30, 2013 * * – * * Library Typology * * , http://www.pewinternet.org/datasets/september-2013-library-typology/
+- Pew Research Center Data Set : * * Jan. 2-5, 2014* * –* * E-Reading and Gadgets* * , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
+- * *Bing Maps* * Website enabled app function in * *Microsoft  Excel * *,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
 
 #Credits
 
