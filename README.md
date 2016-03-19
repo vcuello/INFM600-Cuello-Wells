@@ -38,40 +38,48 @@ Options:
 
 The dataset is released in the framework and conjugation with INFM 600, Information Environments, Spring 2016, at the University of Maryland iSchool, http://umd.edu/mim.
 
-# Dataset Combination Process --- 
+# Dataset Combination Process 
 
 To join both datasets, the research team identified the common key to combined the datasets for 2013 Library Typology and 2014 E-Reading and Gadgets using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
 
 The team used excel to do the new variable calculations and define a new join dataset as follows:
 
 ## 2013 Library Typology 
+
 - Identified the state identifier column
 - Identified the Q21a column
 - Created new variable, called Key, to signify the combination of the state identifier and the Q21a selected answer formated as; <state identifier>,<Q21a codified answer>. 
+
 ## 2014 E-Reading and Gadgets 
+
 - Identified the state identifier column
 - Identified the PIAL4 columns for all 4 devices tested; PIAL4a, PIAL4b, PIAL4c and PIAL4d
 - Created new variable, called Key, to signify the combination of the state key and the selected answers for PIAL4a, PIAL4b, PIAL4c and PIAL4d formated as; <state identifier>,<PIAL4a answer>,<PIAL4b answer>,<PIAL4c answer>,<PIAL4d answer>
 - Created a new variable called PIAL4Calc to sum all PIAL4 answers only for options:
--- 1	Yes, every day or almost every day
--- 2	Yes, a few times a week
--- 3	Yes, a few times a month
--- 4	Yes, less often
+1.	Yes, every day or almost every day
+2.	Yes, a few times a week
+3.	Yes, a few times a month
+4.	Yes, less often
 - If the Sum PIAL4Calc  is greater than 0 this individual uses e-reading devices. For this purpose we created a new boolean variable called useEReadingDevices to hold the value of TRUE if the sum PIAL4Calc  is greater than 0, FALSE otherwise.
 - Created new variable, called Key, to signify the combination of the state key and the calculated variable useEReadingDevices; <state identifier>,<useEReadingDevices>
+
 ## Joined Dataset 
 - Created a sheet with all possible permutations of the variables:
--- State Identifier
--- Q21a possible answers: 1, 2, 3, 8 and 9
--- useEReadingDevices possible values: TRUE, FALSE
+1. State Identifier
+2. Q21a possible answers: 1, 2, 3, 8 and 9
+3. useEReadingDevices possible values: TRUE, FALSE
 - Created a Key variable to match the Key values for each dataset.
 - Created variables  PercentageTypology and PercentageEreading using the COUNTIF function in excel to count each Key value and divided by the total number of answer per state, creating a new calculated variable representing the percentage of people in that state with each answer combination (from 0 to 1). 
 - Notice Alaska, Hawaii and Wyoming were not survey in the 2014 E-Reading and Gadgets were we got a division by zero error, those state were removed for the purpose of this study and for final analysis we used the cleansed sheet of the joined dataset.
+
 #Dataset Graphic Representation
+
 By using Bing Maps in Excel we filtered the cleansed sheet of the joined data for the percentages for answer 1 for Q21a (People that have visit a public library in the past 12 months) and TRUE for use E-Reading devices by state. The percentages were scaled to 0 to a 100 and finally the map uses the pie chart display to make a comparison of percentages.
 Notice that to be able to visualize the map the user needs to be connected to the internet and have a Microsoft account.  The user will also need to be able to zoom in and out of the map to find the best resizing format to see the whole United States regions.
 From the graphic representation the most noticeable feature is that the percentage of people visiting public libraries in the last 12 month is always greater or equal to those using E-Reading devices making noticeable the relevance of public libraries in all states as of 2013-2014. A tendency analysis will need to be made to see if E-Reading devices will overtake libraries  in the future.
+
 #File
+
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 Sheet Sept_2013_Library_Typology: contains raw data set for 2013 Library Typology with the highlighted fields selected fields and Key fields defined for the purpose of this project.
 - Sheet January_2014_Ereading_Gadgets_C: contains raw data set for 2014 E-Reading with Gadgets and the highlighted fields, the calculated fields and key defined for the purpose of this project.
@@ -106,7 +114,7 @@ When citing this data you should cite :
 - Pew Research Center  Website , http://www.pewresearch.org/
 - Pew Research Center Data Set : July 18-Sept. 30, 2013 – Library Typology , http://www.pewinternet.org/datasets/september-2013-library-typology/
 - Pew Research Center Data Set :  Jan. 2-5, 2014 – E-Reading and Gadgets , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
-- Bing Maps Website enabled app function in Microsoft  Excel,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
+- **Bing Maps** Website enabled app function in Microsoft  Excel,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
 
 #Credits
 
