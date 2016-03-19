@@ -1,6 +1,6 @@
 #Description of Datasets
 
-The dataset is a combined set of two Pew Research Center’s Internet & American Life Project in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a 2013 Library Typology (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a * * 2014 E-Reading and Gadgets* * (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
+The dataset is a combined set of two* * Pew Research Center’s Internet & American Life Project in association with Princeton Survey Research Associates International survey analysis datasets, which are a combined set of a 2013 Library Typology (http://www.pewinternet.org/datasets/september-2013-library-typology/) survey analysis complied by Aaron Smith, Associate Director of Research at the Pew Research Center; and a * * 2014 E-Reading and Gadgets* * (http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/) survey analysis complied by Research Analysist Kathryn Zickuhr and Director of Internet Science & Technology Research at the Pew Research Center, Lee Raine.  
 
 The * *2013 Library Typology* * dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
 
@@ -93,17 +93,44 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
 - Sheet Library Visit & E-Reading Map: contains a filtered set of data from the Clean_Join_LibTypology_Ereading sheet to only include Q21a 1 and Use E-Reading Devices TRUE and a graphical map representation of the filtered data.
 
-#Variable Description
+##Variable Description
 
-##Sept_2013_Library_Typology
-*State Codes  q21a  KeyTypology
-##January_2014_Ereading_Gadgets_C.
-*State Codes  Pial4a-b  Pial4Key  Pial4calc  EreadingDevices  Key
-#Join_Library_ Typology_ Ereading
-*FIPS State Numeric Code   State Identifier   Library Typology   Q21a    useEReading Devices   KeyTypology  KeyEreading    Percentage Typology	 PercentageEReading 
-#Clean_Join_LibTypology_Ereading
-*FIPS State Numeric Code  State Identifier Library  Typology   Q21a    UseEReading Devices  KeyTypology KeyEreading   Percentage Visit Public Libraries (Percentage Typology)  Percentage Use E-Reading                  (Percentage Ereading)   United States Geographical Chart BingMaps
-##Library Visit & E-Reading Map
+###Sept_2013_Library_Typology
+- State Codes:
+- q21a:
+- KeyTypology:
+###January_2014_Ereading_Gadgets_C.
+- State Codes  
+- Pial4a-b  
+- Pial4Key  
+- Pial4calc  
+- EreadingDevices  
+- Key
+###Join_Library_ Typology_ Ereading
+- FIPS State Numeric Code   
+- State Identifier   
+- Library Typology   Q21a    
+- useEReading Devices   
+- KeyTypology  
+- KeyEreading   
+- Percentage Typology	 
+- PercentageEReading 
+###Clean_Join_LibTypology_Ereading
+- FIPS State Numeric Code 
+- State Identifier 
+- Library  Typology   Q21a    
+- UseEReading Devices  
+- KeyTypology 
+- KeyEreading   
+- Percentage Visit Public Libraries (Percentage Typology)  
+- Percentage Use E-Reading (Percentage Ereading)   
+- Percentage Visit Public Libraries % (Percentage Typology)  
+- Percentage Use E-Reading % (Percentage Ereading)   
+###Library Visit & E-Reading Map
+- State	 
+- Visit Public Libraries %	 
+- Use E-Reading Devices %
+
 
 #Acknowledgements
 
