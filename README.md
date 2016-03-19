@@ -4,7 +4,7 @@ The dataset is a combined set of two *Pew Research Center’s Internet & America
 
 The  *2013 Library Typology*  dataset is comprised of information in relation to survey answer question analysis about American adults 16 years and older most common uses for public libraries, along with a report analysis on the findings published by Pew Research Centers (Smith, 2014), (http://www.pewinternet.org/2014/04/03/older-adults-and-technology-use/). 
 
-The  *2014 E-Reading and Gadgets*  dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes a liink to an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
+The  *2014 E-Reading and Gadgets*  dataset consist of a survey question analysis of American adults age 16 and older frequency of use of E-reading and other electronic devices uses in public libraries, also includes a link to an analytic report of the dataset ( Zickhur & Raine, 2014) ,                                                                                                                           ( http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/).
 
 Even though these datasets are one year apart which may lead to data miss match, it still provides relevant information based on the commonality factor of location. The one year apart between the datasets is not significant given the information we used for the joined dataset is formulated in a way that asks the individual if he/she ever used electronic devices for reading or ever visited the library making the question cumulative overtime with only a one year difference. 
 
@@ -49,7 +49,7 @@ The dataset is released in the framework and conjugation with INFM 600, Informat
 
 # Dataset Combination Process 
 
-To join both datasets, the research team identified the common key to combine the datasets for               *2013 Library Typology*  and  *2014 E-Reading and Gadgets*  using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
+To join both datasets, the research team identified the common key to combine the datasets for       *2013 Library Typology*  and  *2014 E-Reading and Gadgets*  using the state key id (FIPS code). Before joining the sets, new variables were defined for each dataset to transform the data from measures taken from individuals nationally to significant state measures. 
 
 The team used Excel to do the new variable calculations and define a new join dataset as follows:
 
