@@ -102,13 +102,12 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 
 ###January_2014_Ereading_Gadgets_C.
 - state: FIPS code
-- Pial4a: Answers for question PIAL4a
-- Pial4b
-- Pial4c
-- Pial4d
-  
-- Pial4Key  
-- Pial4calc  
+- Pial4a: Answers for question PIAL4a (1,2,3,4,5,6,8 or 9)
+- Pial4b: Answers for question PIAL4b (1,2,3,4,5,6,8 or 9)
+- Pial4c: Answers for question PIAL4c (1,2,3,4,5,6,8 or 9)
+- Pial4d: Answers for question PIAL4a (1,2,3,4,5,6,8 or 9)
+- Pial4Key: [state],[Pial4a],[Pial4b],[Pial4c],[Pial4d]
+- Pial4calc: Sum of answers from 1 to 4	  
 - EreadingDevices  
 - Key
 
@@ -142,7 +141,7 @@ The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
 
 #Acknowledgements
 
-We want to thank the research groups of the * *Pew Research Center’s Internet & American Life Project* *  in association with * *Princeton Survey Research Associates International* * for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith compiler of the  * *2013 Library Typology* *  dataset and the compliers Kathryn Zickuhr and Lee Raine of the * *2014 E-Reading and Gadgets* * dataset.  We also would like to thank * *Bing Maps* *  in  * *Microsoft Excel 2013* *  developed by the  * *Microsoft Corporation* *  for provided us with the geographic chart map.
+We want to thank the research groups of the * *Pew Research Center’s Internet & American Life Project* *  in association with * *Princeton Survey Research Associates International* *  for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith compiler of the   * *2013 Library Typology* *   dataset and the compliers Kathryn Zickuhr and Lee Raine of the * *2014 E-Reading and Gadgets* * dataset.  We also would like to thank * *Bing Maps* *  in  * *Microsoft Excel 2013* *  developed by the  * *Microsoft Corporation* *  for provided us with the geographic chart map.
 
 #Licenses 
 
@@ -156,9 +155,9 @@ info@pewresearch.org.
 
 When citing this data you should cite :
 - Pew Research Center  Website , http://www.pewresearch.org/
-- Pew Research Center Data Set : * *July 18-Sept. 30, 2013 * * – * * Library Typology * * , http://www.pewinternet.org/datasets/september-2013-library-typology/
+- Pew Research Center Data Set : * *July 18-Sept. 30, 2013 * * – * *Library Typology* * , http://www.pewinternet.org/datasets/september-2013-library-typology/
 - Pew Research Center Data Set : * * Jan. 2-5, 2014* * –* * E-Reading and Gadgets* * , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
-- * *Bing Maps* * Website enabled app function in * *Microsoft  Excel * *,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
+-  * *Bing Maps* * Website enabled app function in * *Microsoft  Excel * *,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx
 
 #Credits
 
