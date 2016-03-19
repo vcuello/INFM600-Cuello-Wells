@@ -13,6 +13,7 @@ From these two original datasets of the 2013 Library Typology dataset survey res
 # Data Description
 
 The following section describes the codification of the selected data points: 
+
 From 2013 Library Typology: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
 
 Options:
@@ -89,8 +90,8 @@ From the graphic representation the most noticeable feature is that the percenta
 #File
 
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
-Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typology* with the highlighted fields selected fields and Key fields defined for the purpose of this project.
-- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for 2014 E-Reading with Gadgets and the highlighted fields, the calculated fields and key defined for the purpose of this project.
+Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typology** with the highlighted fields selected fields and Key fields defined for the purpose of this project.
+- Sheet January_2014_Ereading_Gadgets_C: contains raw data set for **2014 E-Reading and Gadgets and the highlighted fields, the calculated fields and key defined for the purpose of this project.
 - Sheet Join_Library_ Typology_ Ereading: contains the first iteration of the joined data; it includes the FIPS State Numeric Code, State Identifier, Library Typology Q21a Possible answers, useEReading Devices, KeyTypology, KeyEreading, PercentageTypology, and PercentageEReading.
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
 - Sheet Library Visit & E-Reading Map: contains a filtered set of data from the Clean_Join_LibTypology_Ereading sheet to only include Q21a 1 and Use E-Reading Devices TRUE and a graphical map representation of the filtered data.
