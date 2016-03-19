@@ -14,27 +14,35 @@ From these two original datasets of the 2013 Library Typology dataset survey res
 
 The following section describes the codification of the selected data points: 
 From 2013 Library Typology: Q21a Have you, personally, EVER Visited a public library or used a public library bookmobile IN PERSON
+
 Options:
-1	Yes, have done this in past 12 months
-2	Yes, have done this, but not in the past 12 months
-3	No, have never done this
-8	Don’t know
-9	Refused
+
+1.	Yes, have done this in past 12 months
+2.	Yes, have done this, but not in the past 12 months
+3.	No, have never done this
+8.	Don’t know
+9.	Refused
 
 From 2014 E-Reading and Gadgets: PIAL4  When you read electronic books or e-books, do you ever read them on your... [INSERT ITEMS IN ORDER]?
+
 a.	Tablet computer
+
 b.	E-book reader
+
 c.	Desktop or laptop computer
+
 d.	Cell phone
+
 Options:
-1	Yes, every day or almost every day
-2	Yes, a few times a week
-3	Yes, a few times a month
-4	Yes, less often
-5	No, do not read e-books on this device
-6	Can’t read e-books on device/Device not equipped for reading e-books
-8	Don’t know
-9	Refused
+
+1.	Yes, every day or almost every day
+2.	Yes, a few times a week
+3.	Yes, a few times a month
+4.	Yes, less often
+5.	No, do not read e-books on this device
+6.	Can’t read e-books on device/Device not equipped for reading e-books
+8.	Don’t know
+9.	Refused
 
 The dataset is released in the framework and conjugation with INFM 600, Information Environments, Spring 2016, at the University of Maryland iSchool, http://umd.edu/mim.
 
@@ -81,7 +89,7 @@ From the graphic representation the most noticeable feature is that the percenta
 #File
 
 The datasets are available at Join_Library_Typology_EreadingV6.xlsx as follows:
-Sheet Sept_2013_Library_Typology: contains raw data set for 2013 Library Typology with the highlighted fields selected fields and Key fields defined for the purpose of this project.
+Sheet Sept_2013_Library_Typology: contains raw data set for **2013 Library Typology* with the highlighted fields selected fields and Key fields defined for the purpose of this project.
 - Sheet January_2014_Ereading_Gadgets_C: contains raw data set for 2014 E-Reading with Gadgets and the highlighted fields, the calculated fields and key defined for the purpose of this project.
 - Sheet Join_Library_ Typology_ Ereading: contains the first iteration of the joined data; it includes the FIPS State Numeric Code, State Identifier, Library Typology Q21a Possible answers, useEReading Devices, KeyTypology, KeyEreading, PercentageTypology, and PercentageEReading.
 - Sheet Clean_Join_LibTypology_Ereading: contains the cleansed data removing states with no answers such as Alaska, Hawaii and Wyoming and the final percent calculation in 0 to 100 scale. 
@@ -98,7 +106,7 @@ Sheet Sept_2013_Library_Typology: contains raw data set for 2013 Library Typolog
 
 #Acknowledgements
 
-We want to thank the research groups of the Pew Research Center’s Internet & American Life Project in association with Princeton Survey Research Associates International for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith complier of the 2013 Library Typology dataset and the compliers Kathryn Zickuhr and Lee Raine of the 2014 E-Reading and Gadgets dataset.  We also would like to thank Bing Maps  in Microsoft Excel 2013  developed by the Microsoft Corporation for provided us with the geographic chart map.
+We want to thank the research groups of the Pew Research Center’s Internet & American Life Project in association with **Princeton Survey Research Associates International** for allowing access to both master sets of datasets and survey question analysis (http://www.pewresearch.org/).  We would like to thank Aaron Smith complier of the **2013 Library Typology** dataset and the compliers Kathryn Zickuhr and Lee Raine of the **2014 E-Reading and Gadgets** dataset.  We also would like to thank **Bing Maps**  in **Microsoft Excel 2013**  developed by the **Microsoft Corporation** for provided us with the geographic chart map.
 
 #Licenses 
 
