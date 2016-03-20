@@ -161,7 +161,7 @@ When citing this data you should cite :
 - Pew Research Center Data Set : *Jan. 2-5, 2014*  – *E-Reading and Gadgets*  , http://www.pewinternet.org/datasets/january-2014-e-reading-and-gadgets-omnibus/
 - Pew Research Center Report : *From Distant Admirers to Library Lovers-and beyond*  , http://www.pewinternet.org/2014/03/13/library-engagement-typology/
 - Pew Research Center Report: *E-Reading Rises as Device Ownership Jumps* ,    http://www.pewinternet.org/2014/01/16/e-reading-rises-as-device-ownership-jumps/                                                        
--* Bing Maps* Website enabled app function in *Microsoft  Excel 2013* ,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx                     
+- *Bing Maps* Website enabled app function in *Microsoft  Excel 2013* ,  2016 Microsoft Corporation https://www.microsoft.com/maps/Default.aspx                     
 
 #Credits
 
